@@ -1,0 +1,46 @@
+
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px 5px 10px 5px ;
+}
+
+.logo{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.pages{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    width: 55%;
+}
+
+.page{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    z-index: 1;
+}
+
+.page:hover{
+    color:rgb(191, 144, 128);
+}
+
+
+.cart-button{
+    background-color: rgb(191, 144, 128);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1;
+}

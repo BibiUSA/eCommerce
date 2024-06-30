@@ -1,0 +1,9 @@
+.footer{
+    background-color: gainsboro;
+    display: flex;
+}
+
+.social-media-icon{
+    width:30px;
+    margin: 10px;
+}

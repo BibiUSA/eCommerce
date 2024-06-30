@@ -1,0 +1,54 @@
+
+.windowshop button{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: black;
+  color: white;
+  padding: 4px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.windowshop button:hover{
+color: teal;
+}
+
+
+.items{
+    display: flex;
+    overflow: scroll;
+}
+.item{
+    margin:10px;
+    cursor: pointer;
+    max-width: 200px;
+    height: 310px;
+}
+
+.item h4{
+    color: black;
+    
+}
+.price{
+    color: black;
+}
+
+.description{
+    color:grey;
+}
+
+.product-image{
+    width:200px;
+    height: 250px;
+
+}
+
+.item-link{
+    text-decoration: none;
+}
+
+.button-link{
+    text-decoration: none;
+}
+

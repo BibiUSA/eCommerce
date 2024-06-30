@@ -1,0 +1,25 @@
+
+
+.each-item-image{
+    width:20vw;
+    height:30vh;
+
+}
+
+.each-item{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: 1px solid transparent;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.each-item:hover{
+    cursor: pointer;
+    border: 1px solid gainsboro;
+}
+
+.item-link{
+  text-decoration: none;
+  color:black;
+}
