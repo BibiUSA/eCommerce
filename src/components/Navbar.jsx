@@ -38,9 +38,16 @@ const [show,setShow] = React.useState(false);
                     <Link to ="/accessories" className="page" >ACCESSORIES</Link>
                     </li>
                 </ul>
-                <button onClick={handleMouse}  className="cart-button">CART</button>
+                <button onMouseOver={handleMouse} className="cart-button">CART</button>
             </div>
-            {<CartWindow  show = {show}/>}
+            {<CartWindow  show = {show} setShow={setShow}/>}
+
+            {show && (
+                <div>
+                    <h1>Hello</h1>
+                </div>
+            )
+            }
         </>
     )
 }

@@ -40,7 +40,6 @@ const accessories = getItem("Accessories")
 
     return(
         <>
-        <Navbar />
         <Banner />
         <WindowShop window= {shirt}/>
         <FeaturedSection PantData = {pant}/>

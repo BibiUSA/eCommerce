@@ -19,12 +19,12 @@
     width:350px;
     height:100vh;
     position: fixed;
-    /* top:58px; */
-    top:0;
+    top:58px;
+    /* top:0; */
     right:0;
     background-color: white;
     border: 2px solid black;
-    z-index: 0;
+    z-index: 100;
     padding-top: 58px;
    
    

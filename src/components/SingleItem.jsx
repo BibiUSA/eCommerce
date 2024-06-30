@@ -13,7 +13,6 @@ export default function(props){
 
     return (
     <>
-        <Navbar />
         <SingleItemInfo fullData = {props.fullData}/>
         <Footer />
     </>
