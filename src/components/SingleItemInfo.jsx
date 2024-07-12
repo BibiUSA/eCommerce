@@ -1,5 +1,8 @@
 import { useState, useEffect } from 'react';
-import { BrowserRouter,Routes, Route, useParams } from 'react-router-dom'
+import { BrowserRouter,Routes, Route, useParams } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { updateCart } from '../redux/slice.js';
+import { useSelector } from "react-redux"
 
 
 export default function(props){
@@ -8,19 +11,19 @@ export default function(props){
 
     const thisItemId= itemId
 
+    const dispatch = useDispatch(); 
+
     
     
 
     let currentItem ;
 
-    
-       
             props.fullData.map((obj)=>{
                 if(obj.id == thisItemId){
                     currentItem = props.fullData.indexOf(obj)
                     return currentItem
                 } 
-            })
+            }) 
 
             
 
@@ -39,14 +42,20 @@ export default function(props){
   
     //trying to get items in the cart and add to it. If its empty, add a new item in an array
 
-  
+    const cartArray = useSelector((state)=>state.cart.cartArray)
+    const cartArrayCopy = [...cartArray] //creates a copy to add new items before it's used to updateCart
 
- let oldArr =[]  
-    if(localStorage.length>0){
+   
+
+
+
+    // let oldArr =[]  
+    // if(localStorage.length>0){
         
         
-        oldArr= JSON.parse(localStorage.getItem("cartArray"))
-    }
+    //     oldArr= JSON.parse(localStorage.getItem("cartArray"))
+    //     console.log("local sotorage",oldArr)
+    // }
     
    
     
@@ -55,13 +64,15 @@ export default function(props){
    
     function handleSubmit(){
     
-        if(oldArr.find((obj)=> obj.itemId == thisItemId)== undefined){ //checks to see if the current item is in the cart
-            oldArr.push(newArr) //if not addd
+        if(cartArray.find((obj)=> obj.itemId == thisItemId)== undefined){ //checks to see if the current item is in the cart
+            cartArrayCopy.push(newArr) //if not addd
+            console.log(cartArrayCopy,"THIS IS COPY")
         } else{
             console.log("Already in cart")
+            console.log(cartArray)
         }  
-      localStorage.setItem("cartArray",JSON.stringify(oldArr))
-      
+    //   localStorage.setItem("cartArray",JSON.stringify(oldArr))
+       dispatch(updateCart(cartArrayCopy)) // sends info to the redux persist storage
        
     }
 

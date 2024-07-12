@@ -10,7 +10,8 @@ const [show,setShow] = React.useState(false);
 
 
     function handleMouse(){
-        setShow(true)
+        console.log("cart show: "+ show)
+        setShow(prevShow=> !prevShow)
     }
 
     
@@ -38,7 +39,7 @@ const [show,setShow] = React.useState(false);
                     <Link to ="/accessories" className="page" >ACCESSORIES</Link>
                     </li>
                 </ul>
-                <button onClick={handleMouse}  className="cart-button">CART</button>
+                <button onClick ={handleMouse}  className="cart-button">CART</button>
             </div>
             {<CartWindow  show = {show}/>}
         </>

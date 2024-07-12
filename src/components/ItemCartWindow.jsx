@@ -1,6 +1,9 @@
 import "./CartWindow.css"
 import eCommereData from "../eCommereData.jsx"
 import { useState } from "react"
+import { useDispatch } from 'react-redux';
+import { updateCart } from '../redux/slice.js';
+import { useSelector } from "react-redux";
 
 export default function(props){
 

@@ -5,6 +5,7 @@ import FeaturedSection from "./FeaturedSection.jsx"
 import Footer from "./Footer.jsx"
 import eCommereData from "../eCommereData.jsx"
 import CartWindow from "./CartWindow.jsx"
+import { useSelector } from "react-redux"
 
 
 
@@ -12,7 +13,9 @@ import CartWindow from "./CartWindow.jsx"
 
 export default function(){
 
+    const cartArray = useSelector((state)=>state.cart.cartArray)
 
+    console.log(cartArray)
     
     
     function getItem(item){
