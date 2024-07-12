@@ -5,6 +5,7 @@ import eCommereData from './eCommereData.jsx'
 import Section from "./components/Section.jsx"
 import { BrowserRouter,Routes, Route, useParams } from 'react-router-dom'
 import SingleItem from './components/SingleItem.jsx'
+import Navbar from './components/Navbar.jsx'
 
 
 
@@ -42,6 +43,7 @@ const fullData = eCommereData.data
   return (
     <>
       <BrowserRouter>
+        <Navbar/>
         <Routes>
           <Route index element ={<Home />} />
           <Route path="/home" element ={<Home />} />

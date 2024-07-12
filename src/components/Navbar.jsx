@@ -41,7 +41,14 @@ const [show,setShow] = React.useState(false);
                 </ul>
                 <button onClick ={handleMouse}  className="cart-button">CART</button>
             </div>
-            {<CartWindow  show = {show}/>}
+            {<CartWindow  show = {show} setShow={setShow}/>}
+
+            {show && (
+                <div>
+                    <h1>Hello</h1>
+                </div>
+            )
+            }
         </>
     )
 }

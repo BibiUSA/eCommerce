@@ -16,7 +16,6 @@ export default function(props){
 
     return (
         <>
-             <Navbar />
             <ItemSection item ={props.item}/>
             <Footer />
         </>
