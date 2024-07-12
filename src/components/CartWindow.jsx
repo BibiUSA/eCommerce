@@ -21,7 +21,7 @@ export default function(props){
     const itemCartWindows = cartArray.map((obj)=>{ 
         for(let i=0; i <totalData.length; i++){  //pushes each item to cart. check through each item in eCommerceData id data is also in redux
        if(obj.itemId== totalData[i].id){
-          return  <ItemCartWindow item = {totalData[i].id} key= {totalData[i].id}/> //may be I should push totalData[i] so that the whole data is available
+          return  <ItemCartWindow item = {totalData[i].id}  key= {totalData[i].id}/> //may be I should push totalData[i] so that the whole data is available
           //iteration on the next page
        } 
     }

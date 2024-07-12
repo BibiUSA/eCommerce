@@ -7,7 +7,7 @@ import { useSelector } from "react-redux";
 
 export default function(props){
 
-
+    let dispach = useDispatch();
     // let itemObj = eCommereData.data.map((obj)=>{
     //    if (obj.id== props.item) {
     //         return JSON.stringify(obj)
@@ -19,22 +19,23 @@ export default function(props){
     let theItem= eCommereData.data.find((obj)=>
         obj.id==props.item
     )
-
+    // let theItem =props.theItem;
+    const cartArray = useSelector((state)=>state.cart.cartArray)
+    let cartArrayCopy = [...cartArray] //copy for it to be mutated
 
     let [cartItem, setcartItem] = useState(eCommereData.data.find((obj)=>
     obj.id==props.item))
 
-    console.log(cartItem)
+    console.log(cartItem,"WOO HOO")
   
    function handleClick(){
     
-   let oldArr=  JSON.parse(localStorage.getItem("cartArray"))
 
-   const deleteThis = oldArr.indexOf(oldArr.find((obj)=> obj.itemId == props.item)) //index of the item to delete
-   if(deleteThis === 0)oldArr.shift()
-   const dropped= oldArr.splice(deleteThis,deleteThis)
+   const deleteThis = cartArrayCopy.indexOf(cartArrayCopy.find((obj)=> obj.itemId == props.item)) //index of the item to delete
+   if(deleteThis === 0)cartArrayCopy.shift()
+   const dropped= cartArrayCopy.splice(deleteThis,deleteThis)
 
-   localStorage.setItem("cartArray",JSON.stringify(oldArr)) //TRYING TO REMOVE THE ITEM IF 
+   dispach(updateCart(cartArrayCopy)) //TRYING TO REMOVE THE ITEM IF 
    //CLICKED DELETE BUT IT MIGHT HAVE UP TO BE ON THE HIGHER PAGE SINCE THAT IS WHAT PUSHES THE ITEM
 
 
