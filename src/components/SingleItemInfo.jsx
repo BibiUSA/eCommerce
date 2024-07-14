@@ -3,6 +3,7 @@ import { BrowserRouter,Routes, Route, useParams } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { updateCart } from '../redux/slice.js';
 import { useSelector } from "react-redux"
+import { Link } from 'react-router-dom';
 
 
 export default function(props){
@@ -57,7 +58,7 @@ export default function(props){
             console.log(cartArrayCopy,"THIS IS COPY")
         } else if(cartArray.find((obj)=>obj.size === size)){
             let matchItemIndex= cartArray.findIndex((obj)=>obj.itemId===thisItemId)
-            cartArrayCopy[matchItemIndex].quantity += quantity //TRYING TO CHANGE THE QUANTITY WHEN ITEM ALREADY IN THE CART- takes a while to add and added item 
+            cartArrayCopy[matchItemIndex].quantity =+quantity //TRYING TO CHANGE THE QUANTITY WHEN ITEM ALREADY IN THE CART- takes a while to add and added item 
             //being a string
             console.log(typeof cartArray[matchItemIndex].quantity)
         } else{
@@ -119,7 +120,7 @@ export default function(props){
                             <br></br>
                             <button type='submit' className="add-to-bag" onClick={event=>{event.preventDefault(),handleSubmit(event)}} >ADD TO BAG</button>
                             <br></br>
-                            <button type='submit' className="buy-it-now">BUY IT NOW</button>
+                            <button type='submit' className="buy-it-now" onClick={event=>{event.preventDefault(),handleSubmit(event)}}><Link to ="/cart"  className="cartLink">BUY IT NOW</Link></button>
                         </form>
                     </div>
 

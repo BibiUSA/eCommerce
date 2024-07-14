@@ -15,22 +15,23 @@ const [show,setShow] = React.useState(false);
         setShow(prevShow=> !prevShow)
     }
 
-    
+
     const cartArray = useSelector((state)=> state.cart.cartArray)
-    const itemsInCart = () => {if(cartArray.length>0){
-        return `(${cartArray.length})`
-    }
-    }
     
 
-    // function quanityCalc(){  I WANT TO DISPLAY THE NUMBER OF TOTAL ITEMS IN THE CART INSTEAD OF GROUP OF ITEMS. SO IF QUANTITY INCREASES, I CAN SEE IT.
-    // let totalQuant;  
-    //     cartArray.map((obj)=>{
-    //     totalQuant=+ obj.quantity
-    // })
-    // return totalQuant
-    // }
 
+    function quantityCalc(){  //displays quanity of items in the cart
+    let totalQuant = Number(0);  
+        cartArray.map((obj)=>{
+        totalQuant= Number(totalQuant) + Number(obj.quantity)
+    })
+    return totalQuant
+    }
+    console.log(quantityCalc())
+    const itemsInCart = () => {if(cartArray.length>0){
+        return `(${quantityCalc()})`
+    }
+    }
   
 
     return(

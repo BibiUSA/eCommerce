@@ -21,4 +21,10 @@ THINGS TO DO;
 QUESTIONS
 1.Why image of social not loading when going inside the singleItem page
 2.Why I can't go from all shirt page to all pants page or shoes page or accessories?
-3.What is the use of useEffect? 4. How to use a dummy API? 5. Usually, when you're building something like this, do you use any CSS library or framework such as bootstrap or is it usually designed in plain CSS? 6. Does the iterations that I have where cartArray objects are iterated and compared to totalData objects slow down the website?
+3.What is the use of useEffect?
+4.How to use a dummy API?
+5 Usually, when you're building something like this, do you use any CSS library or framework such as bootstrap or is it usually designed in plain CSS?
+6 Does the iterations that I have where cartArray objects are iterated and compared to totalData objects slow down the website?
+7 Why on Navbar line 26, i had to add number to the items or it was treating it as strings instead of numbers?
+8 When I add different sizes, there are items with the same key/id in there. What is a way to resolve that?
+9 best practice to add totalprice and total quantity to the redux as another state in the store or copy the function and all the imports needed to calculate those values.

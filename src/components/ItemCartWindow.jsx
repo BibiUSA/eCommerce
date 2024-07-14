@@ -31,7 +31,7 @@ export default function(props){
    function handleClick(){
     
 
-   const deleteThis = cartArrayCopy.indexOf(cartArrayCopy.find((obj)=> obj.itemId == props.item)) //index of the item to delete
+   const deleteThis = cartArrayCopy.indexOf(cartArrayCopy.find((obj)=> obj.itemId == props.item && obj.size ==props.size)) //index of the item to delete
    if(deleteThis === 0)cartArrayCopy.shift()
    const dropped= cartArrayCopy.splice(deleteThis,deleteThis)
 
@@ -52,7 +52,7 @@ export default function(props){
                 <p>Quanitity: {props.quantity}</p>
                 </div>
                 <p className="price"><strong>{theItem.price}</strong></p>
-                <button onClick={handleClick}>DELETE</button>
+                <button className="deleteButton" onClick={handleClick}>DELETE</button>
             </section>
         </>
     )

@@ -1,6 +1,6 @@
 
 .cartitem{
-    border:3px solid black;
+    border:1px solid black;
     padding: 5px;
     display: flex;
     
@@ -10,7 +10,7 @@
     width: 200px;
 }
 .cartItemDescription{
-    border:2px solid red;
+
     padding-right: 60%;
 }
 

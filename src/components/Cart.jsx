@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux'
 import { useDispatch } from 'react-redux'
 import { updateCart } from '../redux/slice'
 import eCommereData from "../eCommereData.jsx"
-import CartItemWindow from './CartItemWindow.jsx'
+import RealCartItemWindow from './RealCartItemWindow.jsx'
 import "./Cart.css"
 
 
@@ -13,19 +13,18 @@ export default function(){
     const totalData = eCommereData.data
     const cartArray = useSelector((state)=>state.cart.cartArray)
 
-    console.log(cartArray)
+    
 
    const cartSpread= cartArray.map((obj)=>{
         for(let i=0; i<totalData.length; i++){
             if(obj.itemId == totalData[i].id){
-                console.log(obj.itemId)
-                return <CartItemWindow  cartObj= {obj} fullData = {totalData[i]} className="cartItem"/>
+                return <RealCartItemWindow  cartObj= {obj} fullData = {totalData[i]} className="cartItem"/>
             }else{
-                console.log("THere are none?")
             }
         }
     })
 
+   
 
     return(
         <>
