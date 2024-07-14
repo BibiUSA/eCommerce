@@ -1,0 +1,23 @@
+.cart{
+    display: flex;
+}
+.checkOutSection{
+    width:300px;
+    border:2px solid green;
+    margin-left: 0;
+}
+
+.cartitems{
+    width:100%;
+}
+.cartItem{
+    width:100%;
+}
+
+.checkOutButton{
+    padding: 4px;
+    border-radius: 5px;
+
+   cursor: pointer;
+
+}

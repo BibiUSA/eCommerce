@@ -35,8 +35,7 @@ export default function(props){
    if(deleteThis === 0)cartArrayCopy.shift()
    const dropped= cartArrayCopy.splice(deleteThis,deleteThis)
 
-   dispach(updateCart(cartArrayCopy)) //TRYING TO REMOVE THE ITEM IF 
-   //CLICKED DELETE BUT IT MIGHT HAVE UP TO BE ON THE HIGHER PAGE SINCE THAT IS WHAT PUSHES THE ITEM
+   dispach(updateCart(cartArrayCopy))
 
 
    }
@@ -49,8 +48,8 @@ export default function(props){
             
                 <p>{theItem.name}</p>
                 <p>{theItem.color}</p>
-                <p>{theItem.size}</p>
-                <p>Quanitity: 1</p>
+                <p>{props.size}</p>
+                <p>Quanitity: {props.quantity}</p>
                 </div>
                 <p className="price"><strong>{theItem.price}</strong></p>
                 <button onClick={handleClick}>DELETE</button>

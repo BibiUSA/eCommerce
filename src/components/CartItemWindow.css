@@ -1,0 +1,28 @@
+
+.cartitem{
+    border:3px solid black;
+    padding: 5px;
+    display: flex;
+    
+}
+.cartItemImage{
+    height: 150px;
+    width: 200px;
+}
+.cartItemDescription{
+    border:2px solid red;
+    padding-right: 60%;
+}
+
+.name{
+    font-size: 1.5rem;
+}
+
+.price{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.delete{
+    height: 30px;
+}

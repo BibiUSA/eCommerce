@@ -3,6 +3,7 @@ import CartWindow from "./CartWindow";
 import React, {useEffect, useState} from 'react';
 import App from "../App.jsx";
 import {Link} from 'react-router-dom'
+import { useSelector } from "react-redux";
 
 export default function(){
 
@@ -15,7 +16,20 @@ const [show,setShow] = React.useState(false);
     }
 
     
+    const cartArray = useSelector((state)=> state.cart.cartArray)
+    const itemsInCart = () => {if(cartArray.length>0){
+        return `(${cartArray.length})`
+    }
+    }
     
+
+    // function quanityCalc(){  I WANT TO DISPLAY THE NUMBER OF TOTAL ITEMS IN THE CART INSTEAD OF GROUP OF ITEMS. SO IF QUANTITY INCREASES, I CAN SEE IT.
+    // let totalQuant;  
+    //     cartArray.map((obj)=>{
+    //     totalQuant=+ obj.quantity
+    // })
+    // return totalQuant
+    // }
 
   
 
@@ -39,16 +53,9 @@ const [show,setShow] = React.useState(false);
                     <Link to ="/accessories" className="page" >ACCESSORIES</Link>
                     </li>
                 </ul>
-                <button onClick ={handleMouse}  className="cart-button">CART</button>
+                <button onClick ={handleMouse}  className="cart-button">CART{itemsInCart()}</button>
             </div>
             {<CartWindow  show = {show} setShow={setShow}/>}
-
-            {show && (
-                <div>
-                    <h1>Hello</h1>
-                </div>
-            )
-            }
         </>
     )
 }

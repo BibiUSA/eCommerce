@@ -6,7 +6,7 @@ import Section from "./components/Section.jsx"
 import { BrowserRouter,Routes, Route, useParams } from 'react-router-dom'
 import SingleItem from './components/SingleItem.jsx'
 import Navbar from './components/Navbar.jsx'
-
+import Cart from './components/Cart.jsx'
 
 
 
@@ -52,6 +52,7 @@ const fullData = eCommereData.data
           <Route path="/shoes" element ={<Section item = {shoes}/> } />
           <Route path="/accessories" element ={<Section item = {accessories}/> } />
           <Route path="/singleitem/:itemId" element ={<SingleItem fullData= {fullData}/> } />
+          <Route path="/cart" element={<Cart />} />
           
         </Routes>
       
