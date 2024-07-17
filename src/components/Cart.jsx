@@ -7,6 +7,7 @@ import RealCartItemWindow from './RealCartItemWindow.jsx'
 import "./Cart.css"
 
 
+
 export default function(){
     
     const dispatch = useDispatch();
@@ -24,6 +25,17 @@ export default function(){
         }
     })
 
+    let totalPrice =0;
+    const totalPriceCalc=  cartArray.map((obj)=>{
+      
+      for(let i=0; i<totalData.length; i++){
+        if(obj.itemId ==totalData[i].id){
+          let eachGroupPrice= obj.quantity*Number(totalData[i].price.substring(1)); //price needs to have the dollar sign removed
+          totalPrice = totalPrice + eachGroupPrice;
+        }
+      }
+      
+    })
    
 
     return(
@@ -34,7 +46,7 @@ export default function(){
             {cartSpread}
             </div>
         <div className="checkOutSection">
-            <p>TOTAL: $119.99</p>
+            <p>TOTAL: ${totalPrice.toFixed(2)}</p>
             <button className='checkOutButton'>PROCEED TO CHECKOUT</button>
         </div>
         </div>

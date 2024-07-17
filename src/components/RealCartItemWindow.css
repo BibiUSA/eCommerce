@@ -26,3 +26,8 @@
 .delete{
     height: 30px;
 }
+
+.nameLink{
+    text-decoration: none;
+    color: black;
+}

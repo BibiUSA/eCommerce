@@ -24,7 +24,8 @@ QUESTIONS
 3.What is the use of useEffect?
 4.How to use a dummy API?
 5 Usually, when you're building something like this, do you use any CSS library or framework such as bootstrap or is it usually designed in plain CSS?
-6 Does the iterations that I have where cartArray objects are iterated and compared to totalData objects slow down the website?
+6 Does the iterations that I have where cartArray objects are iterated and compared to totalData objects slow down the website? (Cartwindow.jsx)
 7 Why on Navbar line 26, i had to add number to the items or it was treating it as strings instead of numbers?
 8 When I add different sizes, there are items with the same key/id in there. What is a way to resolve that?
 9 best practice to add totalprice and total quantity to the redux as another state in the store or copy the function and all the imports needed to calculate those values.
+10 On CartWindow, why props where passed in curly brackets and

@@ -37,3 +37,7 @@
     top:50%;
     left:3%;
 }
+.linkToItem{
+    text-decoration: none;
+    cursor: pointer;
+}

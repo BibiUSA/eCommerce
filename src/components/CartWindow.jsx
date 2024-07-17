@@ -9,10 +9,9 @@ import {Link} from 'react-router-dom'
 
 
 
-export default function(props){
+export default function({show, setShow}){
 
     let cartArray = useSelector((state)=>state.cart.cartArray)
-    console.log("We got cartArray here", cartArray)
     let totalData= eCommereData.data
 
     // let cartItems= JSON.parse(localStorage.getItem("cartArray")) //previous code with localStorage
@@ -31,9 +30,7 @@ export default function(props){
         
         for(let i=0; i<totalData.length; i++){
           if(obj.itemId ==totalData[i].id){
-            console.log("check this",obj.quantity, typeof totalData[i].price) 
             let eachGroupPrice= obj.quantity*Number(totalData[i].price.substring(1)); //price needs to have the dollar sign removed
-            console.log("check this 2",eachGroupPrice)
             totalPrice = totalPrice + eachGroupPrice;
           }
         }
@@ -52,7 +49,11 @@ export default function(props){
     })
 
 
-    
+    function closeWindow(){
+      setShow(false)
+    }
+
+ 
 
 
    
@@ -60,7 +61,7 @@ export default function(props){
 
     return(
         <>
-       {props.show && <div className="cart-window" >
+       {show && <div className="cart-window" onMouseLeave={closeWindow}>
             <div className="cart-and-items">
             <h3>CART</h3>
             <p>{quantityCalc()} items</p>

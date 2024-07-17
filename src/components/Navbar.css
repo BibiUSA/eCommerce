@@ -31,6 +31,11 @@
     z-index: 1;
 }
 
+.cartPage{
+    text-decoration: none;
+    color:white;
+}
+
 .page:hover{
     color:rgb(191, 144, 128);
 }

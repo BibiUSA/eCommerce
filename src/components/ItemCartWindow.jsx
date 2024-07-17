@@ -4,10 +4,11 @@ import { useState } from "react"
 import { useDispatch } from 'react-redux';
 import { updateCart } from '../redux/slice.js';
 import { useSelector } from "react-redux";
+import {Link} from 'react-router-dom'
 
 export default function(props){
 
-    let dispach = useDispatch();
+    let dispatch = useDispatch();
     // let itemObj = eCommereData.data.map((obj)=>{
     //    if (obj.id== props.item) {
     //         return JSON.stringify(obj)
@@ -26,7 +27,6 @@ export default function(props){
     let [cartItem, setcartItem] = useState(eCommereData.data.find((obj)=>
     obj.id==props.item))
 
-    console.log(cartItem,"WOO HOO")
   
    function handleClick(){
     
@@ -35,15 +35,16 @@ export default function(props){
    if(deleteThis === 0)cartArrayCopy.shift()
    const dropped= cartArrayCopy.splice(deleteThis,deleteThis)
 
-   dispach(updateCart(cartArrayCopy))
+   dispatch(updateCart(cartArrayCopy))
 
 
    }
 
+
     return (
         <>
         <section className="each-item-cart">
-            <img src={`../${theItem.img_src}`} alt="item-image" className="item-image"/>
+            <Link to={`/singleItem/${props.item}`} ><img src={`../${theItem.img_src}`} alt="item-image" className="item-image"/></Link>
             <div className="cart-item-desctiption">
             
                 <p>{theItem.name}</p>

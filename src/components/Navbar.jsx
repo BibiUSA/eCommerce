@@ -12,7 +12,11 @@ const [show,setShow] = React.useState(false);
 
     function handleMouse(){
         console.log("cart show: "+ show)
-        setShow(prevShow=> !prevShow)
+        setShow(true)
+    }
+
+    function handleMouseClick(){
+        setShow(false)
     }
 
 
@@ -32,6 +36,7 @@ const [show,setShow] = React.useState(false);
         return `(${quantityCalc()})`
     }
     }
+
   
 
     return(
@@ -54,9 +59,9 @@ const [show,setShow] = React.useState(false);
                     <Link to ="/accessories" className="page" >ACCESSORIES</Link>
                     </li>
                 </ul>
-                <button onClick ={handleMouse}  className="cart-button">CART{itemsInCart()}</button>
+                <button onMouseOver ={handleMouse} onClick={handleMouseClick} className="cart-button"><Link to ="/cart" className="cartPage">CART{itemsInCart()}</Link></button>
             </div>
-            {<CartWindow  show = {show} setShow={setShow}/>}
+            {show && <CartWindow  show = {show} setShow={setShow}/>}
         </>
     )
 }

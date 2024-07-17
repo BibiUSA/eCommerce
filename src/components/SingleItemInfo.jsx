@@ -15,6 +15,7 @@ export default function(props){
     const dispatch = useDispatch(); 
 
 
+
     let currentItem ;
 
      props.fullData.map((obj)=>{
@@ -29,7 +30,6 @@ export default function(props){
 
     const[size,setSize]= useState("M")
     const[quantity,setQuantity]=useState(1)
-
     
      function handleSize(){ //checks to see see is size is chosen
         setSize(document.querySelector('input:checked').value)
@@ -49,19 +49,20 @@ export default function(props){
     const cartArray = useSelector((state)=>state.cart.cartArray)
     const cartArrayCopy = [...cartArray] //creates a copy to add new items before it's used to updateCart
 
-
     function handleSubmit(){ //when you click add to the bag
     
         if(cartArray.find((obj)=> obj.itemId == thisItemId)== undefined){ //checks to see if the current item is in the cart
-          newArr.quantity =quantity;
-            cartArrayCopy.push(newArr) //if not addd
-            console.log(cartArrayCopy,"THIS IS COPY")
-        } else if(cartArray.find((obj)=>obj.size === size)){
-            let matchItemIndex= cartArray.findIndex((obj)=>obj.itemId===thisItemId)
-            cartArrayCopy[matchItemIndex].quantity =+quantity //TRYING TO CHANGE THE QUANTITY WHEN ITEM ALREADY IN THE CART- takes a while to add and added item 
-            //being a string
-            console.log(typeof cartArray[matchItemIndex].quantity)
+            newArr.quantity =quantity;
+            console.log(newArr)
+            cartArrayCopy.push(newArr) //if not addds
+        } else if (cartArray.find((obj)=>obj.size == size && obj.itemId== thisItemId)){ //THIS PART NEEDS FIXING
+            let thisObj = cartArray.find((obj)=>obj.size == size && obj.itemId== thisItemId)
+            let thisObjIndex= cartArray.findIndex((obj)=>obj.size == size && obj.itemId== thisItemId)
+            let thisObjCopy = {...thisObj}
+            thisObjCopy.quantity = Number(thisObjCopy.quantity) + Number(quantity)
+            cartArrayCopy.splice(thisObjIndex,1,thisObjCopy)
         } else{
+            console.log("this ran")
           newArr.quantity =quantity;
             cartArrayCopy.push(newArr)
         } 
@@ -74,6 +75,7 @@ export default function(props){
     let newArr= {};
     newArr.itemId = thisItemId;
     newArr.size = size //purpose is to make default size M if none is chosen or if another is chosen, change it something else.
+    newArr.key = cartArray.length
 
 
     function quantityOption(){        //iterates the quantity option
@@ -127,6 +129,7 @@ export default function(props){
                     
                 </div>
             </section>
+            <p>Hello</p>
         </div>
     )
 }
