@@ -1,5 +1,4 @@
-.cart{
-}
+
 .checkOutSection{
     width:300px;
 
@@ -18,5 +17,13 @@
     border-radius: 5px;
 
    cursor: pointer;
+
+}
+
+@media screen and (max-width:500px) {
+    h1{
+        text-align: center;
+        font-size: 1.5rem;
+    }
 
 }

@@ -52,3 +52,25 @@ color: teal;
     text-decoration: none;
 }
 
+@media screen and (max-width:500px){
+    .product-image{
+        width:100px;
+        height: 125px;
+    
+    }
+    .item{
+        height:20vh;
+    }
+    .items{
+        font-size: 0.9rem;
+        height:25vh;
+    }
+    .windowshop{
+        height:30vh;
+    }
+    .windowshop button{
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+  
+}

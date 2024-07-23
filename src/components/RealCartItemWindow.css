@@ -31,3 +31,13 @@
     text-decoration: none;
     color: black;
 }
+
+@media screen and (max-width:500px) {
+    .cartItemImage{
+        width:30vw;
+        margin-right: 5vw;
+    }
+    .cartitem{
+        width:100vw;
+    }
+}
