@@ -4,6 +4,8 @@ import { useDispatch } from 'react-redux';
 import { updateCart } from '../redux/slice.js';
 import { useSelector } from "react-redux"
 import { Link } from 'react-router-dom';
+import BuyTogether from './BuyTogether.jsx';
+import Similaritems from './SimilarItems.jsx'
 
 
 export default function(props){
@@ -129,7 +131,8 @@ export default function(props){
                     
                 </div>
             </section>
-            <p>Hello</p>
+            <BuyTogether thisItem={thisItem} fullData={props.fullData}/>
+            <Similaritems thisItem={thisItem} fullData={props.fullData}/>
         </div>
     )
 }

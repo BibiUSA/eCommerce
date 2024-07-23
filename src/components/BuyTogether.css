@@ -1,0 +1,43 @@
+#BuyTogether{
+    margin:5%;
+}
+
+#BuyTogether h2{
+    padding-bottom: 3%;
+}
+
+#stylingIdea{
+    background-color:rgb(242, 247, 252);
+    display: flex;
+}
+
+
+#thisItemImage{
+    width: 20vw;
+    height: 300px;
+}
+
+.complimentImage{
+    width:14vw;
+    height:230px;
+    margin-bottom: 5%;
+ 
+}
+.complimentPrice{
+    font-size: 1.2rem;
+    
+}
+
+.eachCompliment{
+    text-align: center;
+}
+
+.eachCompliment:hover{
+    cursor:pointer;
+    color:rgb(191, 144, 128)
+}
+
+.complimentLink{
+    text-decoration: none;
+    color:black
+}

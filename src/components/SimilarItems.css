@@ -1,0 +1,26 @@
+#similarItems{
+    margin:5%;
+}
+#similarItems h2{
+    padding-bottom: 3%;
+}
+
+#similarItemsBoxes{
+    display: flex;
+    background-color:rgb(242, 247, 252);
+    text-align: center;
+}
+
+.similarSuggestionImg{
+    width:10vw;
+    height:15vw;
+}
+
+.similarItemLink{
+    text-decoration: none;
+    color: black;
+}
+.similarItemLink:hover{
+    cursor:pointer;
+    color:rgb(191, 144, 128)
+}
