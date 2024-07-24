@@ -34,8 +34,9 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route index element={<Home />} />
+          <Route index path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/eCommerce" element={<Home />} />
           <Route path="/pants" element={<Section item={pant} />} />
           <Route path="/shirts" element={<Section item={shirt} />} />
           <Route path="/shoes" element={<Section item={shoes} />} />
