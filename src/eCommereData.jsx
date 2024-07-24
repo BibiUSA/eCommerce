@@ -35,7 +35,7 @@ data: [
         "name": "Hawaiian Shirt",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 3.8,
-        "img_src": "src/assets/shirt1.jpg",
+        "img_src": "eCommerce/assets/shirt1.jpg",
         "price": "$59.99",
         "number_of_reviews": 120,
         "short_description": "Trendy design"
@@ -48,7 +48,7 @@ data: [
         "name": "Summer Shirt",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.0,
-        "img_src": "src/assets/shirt2.jpg",
+        "img_src": "eCommerce/assets/shirt2.jpg",
         "price": "$42.99",
         "number_of_reviews": 180,
         "short_description": "Comfortable fit"
@@ -61,7 +61,7 @@ data: [
         "name": "Linen Shirt",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.1,
-        "img_src": "src/assets/shirt3.jpg",
+        "img_src": "eCommerce/assets/shirt3.jpg",
         "price": "$69.99",
         "number_of_reviews": 140,
         "short_description": "High quality"
@@ -74,7 +74,7 @@ data: [
         "name": "Denim Shirt",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 3.9,
-        "img_src": "src/assets/shirt4.jpg",
+        "img_src": "eCommerce/assets/shirt4.jpg",
         "price": "$89.99",
         "number_of_reviews": 160,
         "short_description": "Durable and stylish"
@@ -87,7 +87,7 @@ data: [
         "name": "Party Shirt",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.3,
-        "img_src": "src/assets/shirt5.jpg",
+        "img_src": "eCommerce/assets/shirt5.jpg",
         "price": "$79.99",
         "number_of_reviews": 220,
         "short_description": "Festive look"
@@ -100,7 +100,7 @@ data: [
         "name": "Polo Shirt",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 3.7,
-        "img_src": "src/assets/shirt6.jpg",
+        "img_src": "eCommerce/assets/shirt6.jpg",
         "price": "$45.99",
         "number_of_reviews": 170,
         "short_description": "Classic design"
@@ -113,7 +113,7 @@ data: [
         "name": "Sport Shirt",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.6,
-        "img_src": "src/assets/shirt7.jpg",
+        "img_src": "eCommerce/assets/shirt7.jpg",
         "price": "$65.99",
         "number_of_reviews": 250,
         "short_description": "Sporty and comfy"
@@ -126,7 +126,7 @@ data: [
         "name": "Golf Shirt",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.0,
-        "img_src": "src/assets/shirt8.jpg",
+        "img_src": "eCommerce/assets/shirt8.jpg",
         "price": "$55.99",
         "number_of_reviews": 130,
         "short_description": "Comfortable fit"
@@ -165,7 +165,7 @@ data: [
         "name": "Shorts",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 2.4,
-        "img_src": "src/assets/pants3.jpg",
+        "img_src": "eCommerce/assets/pants3.jpg",
         "price": "$79.11",
         "number_of_reviews": 868,
         "short_description": "Trendy design"
@@ -178,7 +178,7 @@ data: [
         "name": "Shorts",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 1.7,
-        "img_src": "src/assets/pants4.jpg",
+        "img_src": "eCommerce/assets/pants4.jpg",
         "price": "$218.50",
         "number_of_reviews": 654,
         "short_description": "Stylish and comfy"
@@ -191,7 +191,7 @@ data: [
         "name": "Chinos",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 2.8,
-        "img_src": "src/assets/pants5.jpg",
+        "img_src": "eCommerce/assets/pants5.jpg",
         "price": "$51.62",
         "number_of_reviews": 546,
         "short_description": "Comfortable fit"
@@ -204,7 +204,7 @@ data: [
         "name": "Jeans",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 2.2,
-        "img_src": "src/assets/pants6.jpg",
+        "img_src": "eCommerce/assets/pants6.jpg",
         "price": "$190.85",
         "number_of_reviews": 539,
         "short_description": "Stylish and comfy"
@@ -217,7 +217,7 @@ data: [
         "name": "Joggers",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.2,
-        "img_src": "src/assets/pants7.jpg",
+        "img_src": "eCommerce/assets/pants7.jpg",
         "price": "$230.92",
         "number_of_reviews": 252,
         "short_description": "Comfortable fit"
@@ -230,7 +230,7 @@ data: [
         "name": "Khakis",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.2,
-        "img_src": "src/assets/pants8.jpg",
+        "img_src": "eCommerce/assets/pants8.jpg",
         "price": "$240.79",
         "number_of_reviews": 33,
         "short_description": "High quality"
@@ -243,7 +243,7 @@ data: [
         "name": "Joggers",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 1.2,
-        "img_src": "src/assets/pants9.jpg",
+        "img_src": "eCommerce/assets/pants9.jpg",
         "price": "$120.26",
         "number_of_reviews": 88,
         "short_description": "Trendy design"
@@ -256,7 +256,7 @@ data: [
         "name": "Khakis",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 1.6,
-        "img_src": "src/assets/pants10.jpg",
+        "img_src": "eCommerce/assets/pants10.jpg",
         "price": "$180.68",
         "number_of_reviews": 865,
         "short_description": "High quality"
@@ -269,7 +269,7 @@ data: [
         "name": "Shorts",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 3.4,
-        "img_src": "src/assets/pants11.jpg",
+        "img_src": "eCommerce/assets/pants11.jpg",
         "price": "$138.96",
         "number_of_reviews": 13,
         "short_description": "Comfortable fit"
@@ -282,7 +282,7 @@ data: [
         "name": "Joggers",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 1.6,
-        "img_src": "src/assets/pants12.jpg",
+        "img_src": "eCommerce/assets/pants12.jpg",
         "price": "$136.72",
         "number_of_reviews": 233,
         "short_description": "Stylish and comfy"
@@ -295,7 +295,7 @@ data: [
         "name": "Jeans",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.9,
-        "img_src": "src/assets/pants13.jpg",
+        "img_src": "eCommerce/assets/pants13.jpg",
         "price": "$199.95",
         "number_of_reviews": 435,
         "short_description": "Comfortable fit"
@@ -308,7 +308,7 @@ data: [
         "name": "Khakis",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 2.2,
-        "img_src": "src/assets/pants14.jpg",
+        "img_src": "eCommerce/assets/pants14.jpg",
         "price": "$63.73",
         "number_of_reviews": 198,
         "short_description": "Comfortable fit"
@@ -321,7 +321,7 @@ data: [
         "name": "Jeans",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.2,
-        "img_src": "src/assets/pants15.jpg",
+        "img_src": "eCommerce/assets/pants15.jpg",
         "price": "$84.36",
         "number_of_reviews": 949,
         "short_description": "Comfortable fit"
@@ -334,7 +334,7 @@ data: [
         "name": "Sneakers",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.7,
-        "img_src": "src/assets/shoes1.jpg",
+        "img_src": "eCommerce/assets/shoes1.jpg",
         "price": "$120.99",
         "number_of_reviews": 250,
         "short_description": "Trendy design"
@@ -347,7 +347,7 @@ data: [
         "name": "Running Shoes",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.8,
-        "img_src": "src/assets/shoes2.jpg",
+        "img_src": "eCommerce/assets/shoes2.jpg",
         "price": "$139.99",
         "number_of_reviews": 280,
         "short_description": "Comfortable fit"
@@ -360,7 +360,7 @@ data: [
         "name": "Loafers",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.2,
-        "img_src": "src/assets/shoes3.jpg",
+        "img_src": "eCommerce/assets/shoes3.jpg",
         "price": "$159.99",
         "number_of_reviews": 220,
         "short_description": "Stylish and comfy"
@@ -373,7 +373,7 @@ data: [
         "name": "Boots",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.0,
-        "img_src": "src/assets/shoes4.jpg",
+        "img_src": "eCommerce/assets/shoes4.jpg",
         "price": "$179.99",
         "number_of_reviews": 180,
         "short_description": "Durable and stylish"
@@ -386,7 +386,7 @@ data: [
         "name": "Sandals",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.5,
-        "img_src": "src/assets/shoes5.jpg",
+        "img_src": "eCommerce/assets/shoes5.jpg",
         "price": "$99.99",
         "number_of_reviews": 150,
         "short_description": "High quality"
@@ -399,7 +399,7 @@ data: [
         "name": "Dress Shoes",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.6,
-        "img_src": "src/assets/shoes6.jpg",
+        "img_src": "eCommerce/assets/shoes6.jpg",
         "price": "$199.99",
         "number_of_reviews": 300,
         "short_description": "Elegant look"
@@ -412,7 +412,7 @@ data: [
         "name": "Casual Shoes",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.1,
-        "img_src": "src/assets/shoes7.jpg",
+        "img_src": "eCommerce/assets/shoes7.jpg",
         "price": "$89.99",
         "number_of_reviews": 120,
         "short_description": "Classic design"
@@ -425,7 +425,7 @@ data: [
         "name": "Sneakers",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.3,
-        "img_src": "src/assets/shoes8.jpg",
+        "img_src": "eCommerce/assets/shoes8.jpg",
         "price": "$149.99",
         "number_of_reviews": 200,
         "short_description": "Stylish and comfy"
@@ -438,7 +438,7 @@ data: [
         "name": "Running Shoes",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.7,
-        "img_src": "src/assets/shoes9.jpg",
+        "img_src": "eCommerce/assets/shoes9.jpg",
         "price": "$169.99",
         "number_of_reviews": 280,
         "short_description": "Sporty and comfy"
@@ -451,7 +451,7 @@ data: [
         "name": "Loafers",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.4,
-        "img_src": "src/assets/shoes10.jpg",
+        "img_src": "eCommerce/assets/shoes10.jpg",
         "price": "$189.99",
         "number_of_reviews": 220,
         "short_description": "Trendy design"
@@ -464,7 +464,7 @@ data: [
         "name": "Belt",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.8,
-        "img_src": "src/assets/belt.jpg",
+        "img_src": "eCommerce/assets/belt.jpg",
         "price": "$49.99",
         "number_of_reviews": 320,
         "short_description": "Durable and stylish"
@@ -477,7 +477,7 @@ data: [
         "name": "Wallet",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.9,
-        "img_src": "src/assets/wallet.jpg",
+        "img_src": "eCommerce/assets/wallet.jpg",
         "price": "$59.99",
         "number_of_reviews": 280,
        
@@ -492,7 +492,7 @@ data: [
         "name": "Hat",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.5,
-        "img_src": "src/assets/hat.jpg",
+        "img_src": "eCommerce/assets/hat.jpg",
         "price": "$39.99",
         "number_of_reviews": 220,
         "short_description": "Trendy design"
@@ -505,7 +505,7 @@ data: [
         "name": "Scarf",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.6,
-        "img_src": "src/assets/scarf.jpg",
+        "img_src": "eCommerce/assets/scarf.jpg",
         "price": "$69.99",
         "number_of_reviews": 150,
         "short_description": "Comfortable fit"
@@ -518,7 +518,7 @@ data: [
         "name": "Sunglasses",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.7,
-        "img_src": "src/assets/sunglasses.jpg",
+        "img_src": "eCommerce/assets/sunglasses.jpg",
         "price": "$79.99",
         "number_of_reviews": 200,
         "short_description": "Elegant look"
@@ -531,7 +531,7 @@ data: [
         "name": "Gloves",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.8,
-        "img_src": "src/assets/gloves.jpg",
+        "img_src": "eCommerce/assets/gloves.jpg",
         "price": "$89.99",
         "number_of_reviews": 170,
         "short_description": "High quality"
@@ -544,7 +544,7 @@ data: [
         "name": "Tie",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.9,
-        "img_src": "src/assets/tie.jpg",
+        "img_src": "eCommerce/assets/tie.jpg",
         "price": "$49.99",
         "number_of_reviews": 220,
         "short_description": "Classic design"
@@ -557,7 +557,7 @@ data: [
         "name": "Watch",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.7,
-        "img_src": "src/assets/watch.jpg",
+        "img_src": "eCommerce/assets/watch.jpg",
         "price": "$249.99",
         "number_of_reviews": 180,
         "short_description": "Durable and stylish"
@@ -570,7 +570,7 @@ data: [
         "name": "Belt",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.8,
-        "img_src": "src/assets/belt 2.jpg",
+        "img_src": "eCommerce/assets/belt 2.jpg",
         "price": "$49.99",
         "number_of_reviews": 320,
         "short_description": "Durable and stylish"
@@ -583,7 +583,7 @@ data: [
         "name": "Wallet",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.9,
-        "img_src": "src/assets/wallet2.jpg",
+        "img_src": "eCommerce/assets/wallet2.jpg",
         "price": "$59.99",
         "number_of_reviews": 280,
         "short_description": "High quality"
@@ -596,7 +596,7 @@ data: [
         "name": "Hat",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.5,
-        "img_src": "src/assets/hat2.jpg",
+        "img_src": "eCommerce/assets/hat2.jpg",
         "price": "$39.99",
         "number_of_reviews": 220,
         "short_description": "Trendy design"
@@ -609,7 +609,7 @@ data: [
         "name": "Scarf",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.6,
-        "img_src": "src/assets/scarf2.jpg",
+        "img_src": "eCommerce/assets/scarf2.jpg",
         "price": "$69.99",
         "number_of_reviews": 150,
         "short_description": "Comfortable fit"
@@ -622,7 +622,7 @@ data: [
         "name": "Sunglasses",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.7,
-        "img_src": "src/assets/sunglasses2.jpg",
+        "img_src": "eCommerce/assets/sunglasses2.jpg",
         "price": "$79.99",
         "number_of_reviews": 200,
         "short_description": "Elegant look"
@@ -635,7 +635,7 @@ data: [
         "name": "Gloves",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.8,
-        "img_src": "src/assets/gloves2.jpg",
+        "img_src": "eCommerce/assets/gloves2.jpg",
         "price": "$89.99",
         "number_of_reviews": 170,
         "short_description": "High quality"
@@ -648,7 +648,7 @@ data: [
         "name": "Tie",
         "description": "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
         "ratings": 4.9,
-        "img_src": "src/assets/tie2.jpg",
+        "img_src": "eCommerce/assets/tie2.jpg",
         "price": "$49.99",
         "number_of_reviews": 220,
         "short_description": "Classic design"
