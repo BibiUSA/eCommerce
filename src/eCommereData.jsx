@@ -9,7 +9,7 @@ export default {
       description:
         "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
       ratings: 4.5,
-      img_src: "eCommerce/public/black-t-shirt.jpg",
+      img_src: "eCommerce/assets/black-t-shirt.jpg",
       price: "$39.99",
       number_of_reviews: 150,
       short_description: "Stylish and comfy",
@@ -23,7 +23,7 @@ export default {
       description:
         "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
       ratings: 4.2,
-      img_src: "eCommerce/public/comfort-t-shirt.jpg",
+      img_src: "eCommerce/assets/comfort-t-shirt.jpg",
       price: "$49.99",
       number_of_reviews: 200,
       short_description: "Elegant look",
@@ -149,7 +149,7 @@ export default {
       description:
         "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
       ratings: 4.5,
-      img_src: "eCommerce/public/dress-pants.jpg",
+      img_src: "eCommerce/assets/dress-pants.jpg",
       price: "$99.99",
       number_of_reviews: 300,
       short_description: "Stylish and comfy",
@@ -163,7 +163,7 @@ export default {
       description:
         "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
       ratings: 4.1,
-      img_src: "eCommerce/public/pants2.jpg",
+      img_src: "eCommerce/assets/pants2.jpg",
       price: "$78.79",
       number_of_reviews: 999,
       short_description: "Comfortable fit",
