@@ -24,6 +24,7 @@ color: teal;
     cursor: pointer;
     max-width: 200px;
     height: 310px;
+    background-color: rgba(236, 236, 236, 0.671);
 }
 
 .item h4{
@@ -51,6 +52,7 @@ color: teal;
 .button-link{
     text-decoration: none;
 }
+
 
 @media screen and (max-width:500px){
     .product-image{

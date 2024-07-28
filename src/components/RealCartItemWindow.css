@@ -32,6 +32,14 @@
     color: black;
 }
 
+.quantityAdjust{
+    display:inline-flex;
+}
+
+.quantityAdjust p{
+    margin: 3px;
+}
+
 @media screen and (max-width:500px) {
     .cartItemImage{
         width:30vw;

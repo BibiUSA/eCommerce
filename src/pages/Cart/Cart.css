@@ -19,6 +19,9 @@
    cursor: pointer;
 
 }
+.cart{
+    min-height: 85vh;
+}
 
 @media screen and (max-width:500px) {
     h1{

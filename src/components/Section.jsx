@@ -1,6 +1,6 @@
 import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
-import ItemSection from "./ItemSection.jsx";
+import ItemSection from "../pages/ItemSection/ItemSection.jsx";
 import eCommereData from "../eCommereData.jsx";
 import { Link, Outlet } from "react-router-dom";
 import React, { useEffect, useState } from "react";

@@ -1,6 +1,7 @@
 .footer{
     background-color: gainsboro;
     display: flex;
+    width: 100vw;
 }
 
 .social-media-icon{

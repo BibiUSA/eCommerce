@@ -9,7 +9,7 @@ export default function (props) {
   }
 
   return (
-    <>
+    <div className="windowShopItem">
       <Link to={`/singleitem/${props.item.id}`} className="item-link">
         <div className="item" onClick={handleClick}>
           <img src={props.item.img_src} className="product-image" />
@@ -20,6 +20,6 @@ export default function (props) {
           </p>
         </div>
       </Link>
-    </>
+    </div>
   );
 }

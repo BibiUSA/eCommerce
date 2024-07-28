@@ -101,7 +101,10 @@ export default function (props) {
         <div className="single-item-details">
           <div className="more-details">
             <h3>{thisItem.name}</h3>
-            <p>Rating: {thisItem.ratings}</p>
+            <p>
+              {`Rating: ${thisItem.ratings} `}
+              <ion-icon name="star"></ion-icon>
+            </p>
             <p>Number of Reviews: {thisItem.number_of_reviews}</p>
             <p>Color: {thisItem.color}</p>
             <p>Product ID: {itemId}</p>

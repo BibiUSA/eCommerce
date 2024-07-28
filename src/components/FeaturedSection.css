@@ -10,7 +10,7 @@
     margin-bottom: 20px;
     cursor: pointer;
     text-decoration: none;
-
+    background-color: rgba(236, 236, 236, 0.671);
 }
 
 .featured img{
@@ -36,7 +36,7 @@
     width:100%;
     height:45%;
     cursor: pointer;
-
+    background-color: rgba(236, 236, 236, 0.671);
 }
 
 .mini-featured-link{

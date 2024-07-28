@@ -1,5 +1,5 @@
-import EachItem from "./EachItem";
-import eCommereData from "../eCommereData.jsx";
+import EachItem from "../../components/EachItem.jsx";
+import eCommereData from "../../eCommereData.jsx";
 import React, { useEffect, useState } from "react";
 import "./ItemSection.css";
 import { Link } from "react-router-dom";
