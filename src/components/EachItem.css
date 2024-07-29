@@ -3,6 +3,8 @@
 .each-item-image{
     width:20vw;
     height:30vh;
+    max-width: 400px;
+    max-height: 600px;
 
 }
 
@@ -22,4 +24,11 @@
 .item-link{
   text-decoration: none;
   color:black;
+}
+
+@media screen and (max-width:500px) {
+ .each-item{
+ 
+ }
+
 }

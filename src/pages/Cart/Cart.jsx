@@ -5,7 +5,6 @@ import { updateCart } from "../../redux/slice.js";
 import eCommereData from "../../eCommereData.jsx";
 import RealCartItemWindow from "../../components/RealCartItemWindow.jsx";
 import "./Cart.css";
-import Footer from "../../components/Footer.jsx";
 
 export default function () {
   const dispatch = useDispatch();
@@ -39,7 +38,7 @@ export default function () {
   });
 
   return (
-    <>
+    <div className="cartPage">
       <h1>CART</h1>
       <div className="cart">
         <div className="cartItems">{cartSpread}</div>
@@ -48,7 +47,6 @@ export default function () {
           <button className="checkOutButton">PROCEED TO CHECKOUT</button>
         </div>
       </div>
-      <Footer />
-    </>
+    </div>
   );
 }

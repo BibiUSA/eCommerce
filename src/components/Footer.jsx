@@ -5,16 +5,25 @@ export default function () {
     <div className="footer">
       <div className="social-media">
         <a href="https://www.facebook.com/" target="_blank">
-          <ion-icon name="logo-facebook"></ion-icon>
+          <ion-icon
+            name="logo-facebook"
+            className="social-media-icon"
+          ></ion-icon>
         </a>
         <a href="https://www.instagram.com/" target="_blank">
-          <ion-icon name="logo-instagram"></ion-icon>
+          <ion-icon
+            name="logo-instagram"
+            className="social-media-icon"
+          ></ion-icon>
         </a>
         <a href="https://x.com/" target="_blank">
-          <ion-icon name="logo-twitter"></ion-icon>
+          <ion-icon
+            name="logo-twitter"
+            className="social-media-icon"
+          ></ion-icon>
         </a>
         <a href="https://www.tiktok.com/" target="_blank">
-          <ion-icon name="logo-tiktok"></ion-icon>
+          <ion-icon name="logo-tiktok" className="social-media-icon"></ion-icon>
         </a>
       </div>
       <div>

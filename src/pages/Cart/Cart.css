@@ -23,6 +23,10 @@
     min-height: 85vh;
 }
 
+.cartPage{
+    max-width: 2000px;
+}
+
 @media screen and (max-width:500px) {
     h1{
         text-align: center;

@@ -1,5 +1,4 @@
 import Navbar from "./Navbar.jsx";
-import Footer from "./Footer.jsx";
 import ItemSection from "../pages/ItemSection/ItemSection.jsx";
 import eCommereData from "../eCommereData.jsx";
 import { Link, Outlet } from "react-router-dom";
@@ -10,7 +9,6 @@ export default function ({ item }) {
   return (
     <>
       <ItemSection item={item} />
-      <Footer />
     </>
   );
 }

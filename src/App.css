@@ -1,3 +1,7 @@
 ion-icon [name = "star"]{
     color:rgb(220, 190, 16);
 }
+
+.homepage{
+    max-width:2000px;
+}

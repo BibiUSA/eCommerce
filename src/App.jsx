@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route, useParams } from "react-router-dom";
 import SingleItem from "./components/SingleItem.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Cart from "./pages/Cart/Cart.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   function getItem(item) {
@@ -47,6 +48,7 @@ function App() {
           />
           <Route path="/cart" element={<Cart />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );

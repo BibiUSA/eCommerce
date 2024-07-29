@@ -2,7 +2,6 @@ import Navbar from "../../components/Navbar.jsx";
 import Banner from "../../components/Banner.jsx";
 import WindowShop from "../../components/WindowShop.jsx";
 import FeaturedSection from "../../components/FeaturedSection.jsx";
-import Footer from "../../components/Footer.jsx";
 import eCommereData from "../../eCommereData.jsx";
 import CartWindow from "../../components/CartWindow.jsx";
 import { useSelector } from "react-redux";
@@ -29,14 +28,13 @@ export default function () {
   const accessories = getItem("Accessories");
 
   return (
-    <>
+    <div className="homepage">
       <Banner />
       <WindowShop window={shirt} />
       <FeaturedSection PantData={pant} />
       <WindowShop window={shoes} />
       <WindowShop window={accessories} />
-      <Footer />
       <Outlet />
-    </>
+    </div>
   );
 }
