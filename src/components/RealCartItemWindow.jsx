@@ -48,42 +48,45 @@ export default function (props) {
   }
 
   return (
-    <div className="cartitem">
-      <div>
-        <Link to={`../singleItem/${fullItemData.id}`}>
-          <img src={fullItemData.img_src} className="cartItemImage" />
-        </Link>
-      </div>
-      <div className="cartItemDescription">
-        <Link to={`../singleItem/${fullItemData.id}`} className="nameLink">
-          <p className="name">{fullItemData.name}</p>
-        </Link>
-        <p className="price">{fullItemData.price}</p>
-        <p>Size: {cartItemObj.size}</p>
-        <div className="quantityAdjust">
-          <label htmlFor="+"></label>
-          <input
-            type="button"
-            value="+"
-            id="+"
-            onClick={adjustQuantity}
-          ></input>
-          <p>Quantity: {cartItemObj.quantity}</p>
-          {cartItemObj.quantity > 1 && (
-            <label htmlFor="-">
-              <input
-                type="button"
-                value="-"
-                id="-"
-                onClick={adjustQuantity}
-              ></input>
-            </label>
-          )}
+    <>
+      <hr></hr>
+      <div className="cartitem">
+        <div>
+          <Link to={`../singleItem/${fullItemData.id}`}>
+            <img src={fullItemData.img_src} className="cartItemImage" />
+          </Link>
         </div>
+        <div className="cartItemDescription">
+          <Link to={`../singleItem/${fullItemData.id}`} className="nameLink">
+            <p className="name">{fullItemData.name}</p>
+          </Link>
+          <p className="price">{fullItemData.price}</p>
+          <p>Size: {cartItemObj.size}</p>
+          <div className="quantityAdjust">
+            <p className="quantity-item">Qty: {cartItemObj.quantity}</p>
+            <label htmlFor="+"></label>
+            <input
+              type="button"
+              value="+"
+              id="plus"
+              onClick={adjustQuantity}
+            ></input>
+            {cartItemObj.quantity > 1 && (
+              <label htmlFor="-">
+                <input
+                  type="button"
+                  value="-"
+                  id="minus"
+                  onClick={adjustQuantity}
+                ></input>
+              </label>
+            )}
+          </div>
+        </div>
+        <button className="delete" onClick={handleClick}>
+          Delete
+        </button>
       </div>
-      <button className="delete" onClick={handleClick}>
-        Delete
-      </button>
-    </div>
+    </>
   );
 }

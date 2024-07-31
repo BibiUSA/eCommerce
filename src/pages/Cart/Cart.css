@@ -1,8 +1,11 @@
 
 .checkOutSection{
     width:300px;
-
+    border: 1px solid gray;
     margin-left: 0;
+}
+.checkOutSection p{
+    color:black;
 }
 
 .cartitems{
@@ -27,10 +30,29 @@
     max-width: 2000px;
 }
 
+hr{
+    border:0.5px solid rgb(213, 206, 206);
+}
+
 @media screen and (max-width:500px) {
     h1{
         text-align: center;
         font-size: 1.5rem;
+    }
+
+}
+
+
+@media screen and (min-width:500px) {
+    checkOutSection{
+        border: 1px solid gray;
+        margin-left: 5%;
+    }
+    .cartPage{
+        display: flex;
+    }
+    .cart{
+        max-width: 70vw;
     }
 
 }

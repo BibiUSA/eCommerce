@@ -39,13 +39,13 @@ export default function () {
 
   return (
     <div className="cartPage">
-      <h1>CART</h1>
       <div className="cart">
         <div className="cartItems">{cartSpread}</div>
-        <div className="checkOutSection">
-          <p>TOTAL: ${totalPrice.toFixed(2)}</p>
-          <button className="checkOutButton">PROCEED TO CHECKOUT</button>
-        </div>
+        <hr></hr>
+      </div>
+      <div className="checkOutSection">
+        <p>TOTAL: ${totalPrice.toFixed(2)}</p>
+        <button className="checkOutButton">PROCEED TO CHECKOUT</button>
       </div>
     </div>
   );
