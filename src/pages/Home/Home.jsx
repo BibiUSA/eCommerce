@@ -6,9 +6,11 @@ import eCommereData from "../../eCommereData.jsx";
 import CartWindow from "../../components/CartWindow.jsx";
 import { useSelector } from "react-redux";
 import { Outlet } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 export default function () {
   const cartArray = useSelector((state) => state.cart.cartArray);
+  const [shirts, setShirts] = useState(getItem("Shirt"));
 
   console.log(cartArray);
 
@@ -30,7 +32,7 @@ export default function () {
   return (
     <div className="homepage">
       <Banner />
-      <WindowShop window={shirt} />
+      <WindowShop window={shirts} />
       <FeaturedSection PantData={pant} />
       <WindowShop window={shoes} />
       <WindowShop window={accessories} />
