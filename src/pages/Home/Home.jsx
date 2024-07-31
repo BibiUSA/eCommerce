@@ -24,6 +24,8 @@ export default function () {
     return itemArr;
   }
 
+  console.log(getItem("Shirt")); // THIS WAS FOR DEPLOYEMNT CHECK - REMOVE ANYITME LATER
+
   const pant = getItem("Pants");
   const shirt = getItem("Shirt");
   const shoes = getItem("Shoes");
