@@ -8,13 +8,15 @@ export default function (props) {
     console.log(props.item.id);
   }
 
+  console.log(props.item.img_src); // to be removed later
+
   return (
     <div className="windowShopItem">
       <Link to={`/singleitem/${props.item.id}`} className="item-link">
         <div className="item" onClick={handleClick}>
-          <img src={props.item.img_src} className="product-image" />
-          <h4>{props.item.name}</h4>
-          <p className="description">{props.item.short_description}</p>
+          <img src={props.item?.img_src} className="product-image" />
+          <h4>{props.item?.name}</h4>
+          <p className="description">{props.item?.short_description}</p>
           <p className="price">
             <strong>{props.item.price}</strong>
           </p>
