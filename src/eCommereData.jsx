@@ -23,8 +23,7 @@ export default {
       description:
         "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
       ratings: 4.2,
-      // img_src: "eCommerce/assets/comfort-t-shirt.jpg",
-      img_src: "eCommerce/assets/test.png",
+      img_src: "eCommerce/assets/comfort-t-shirt.jpg",
       price: "$49.99",
       number_of_reviews: 200,
       short_description: "Elegant look",
