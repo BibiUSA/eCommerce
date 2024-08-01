@@ -45,7 +45,7 @@ export default function (props) {
                 <WindowShopItem item= {props.window[8]} />
                 <WindowShopItem item= {props.window[9]} /> */}
 
-          {props.window.slice(0, 3).map((item) => {
+          {props.window.slice(0, 10).map((item) => {
             return <WindowShopItem item={item} />;
           })}
         </div>
