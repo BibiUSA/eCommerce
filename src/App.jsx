@@ -32,7 +32,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="eCommerce">
         <Navbar />
         <Routes>
           <Route index path="/" element={<Home />} />
