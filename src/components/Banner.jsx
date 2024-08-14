@@ -16,7 +16,7 @@ export default function () {
         <div
           className="banner"
           style={{
-            backgroundImage: `url("eCommerce/assets/comfort-t-shirt.jpg")`,
+            backgroundImage: `url("/eCommerce/assets/comfort-t-shirt.jpg")`,
           }}
         >
           <div className="banner-words">
