@@ -38,7 +38,7 @@ export default function (props) {
           className="similarItemLink"
         >
           <img
-            src={`/${thisData[num].img_src}`}
+            src={`${thisData[num].img_src}`}
             className="similarSuggestionImg"
           />
           <p>

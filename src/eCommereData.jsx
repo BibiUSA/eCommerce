@@ -219,7 +219,7 @@ export default {
       description:
         "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
       ratings: 2.2,
-      img_src: "eCommerce/assets/pants6.jpg",
+      img_src: "/eCommerce/assets/pants6.jpg",
       price: "$190.85",
       number_of_reviews: 539,
       short_description: "Stylish and comfy",

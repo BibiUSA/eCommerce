@@ -94,7 +94,7 @@ export default function (props) {
     <div className="single-item-info">
       <section className="single-item-group">
         <img
-          src={`../${thisItem.img_src}`}
+          src={`${thisItem.img_src}`}
           alt="picture of the item"
           className="single-item-image"
         />

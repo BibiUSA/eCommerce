@@ -35,7 +35,7 @@ export default function (props) {
       >
         <div className="eachCompliment">
           <img
-            src={`../${currentCompliment.img_src}`}
+            src={`${currentCompliment.img_src}`}
             className="complimentImage"
           />
           <p>
@@ -56,7 +56,7 @@ export default function (props) {
     <div id="BuyTogether">
       <h2>Styling Ideas</h2>
       <div id="stylingIdea">
-        <img src={`../${thisItem.img_src}`} id="thisItemImage" />
+        <img src={`${thisItem.img_src}`} id="thisItemImage" />
         {compliment}
       </div>
     </div>

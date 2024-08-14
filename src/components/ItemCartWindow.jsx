@@ -42,7 +42,7 @@ export default function (props) {
       <section className="each-item-cart">
         <Link to={`/singleItem/${props.item}`}>
           <img
-            src={`../${theItem.img_src}`}
+            src={`${theItem.img_src}`}
             alt="item-image"
             className="item-image"
           />
