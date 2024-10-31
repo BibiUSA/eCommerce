@@ -163,7 +163,7 @@ export default {
       description:
         "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
       ratings: 4.1,
-      img_src: "/eCommerce/assets/pants2.jpg",
+      img_src: "/eCommerce/assets/pants2.webp",
       price: "$78.79",
       number_of_reviews: 999,
       short_description: "Comfortable fit",
@@ -177,7 +177,7 @@ export default {
       description:
         "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
       ratings: 2.4,
-      img_src: "/eCommerce/assets/pants3.jpg",
+      img_src: "/eCommerce/assets/pants3.webp",
       price: "$79.11",
       number_of_reviews: 868,
       short_description: "Trendy design",
@@ -191,7 +191,7 @@ export default {
       description:
         "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
       ratings: 1.7,
-      img_src: "/eCommerce/assets/pants4.jpg",
+      img_src: "/eCommerce/assets/pants4.webp",
       price: "$218.50",
       number_of_reviews: 654,
       short_description: "Stylish and comfy",
@@ -205,7 +205,7 @@ export default {
       description:
         "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
       ratings: 2.8,
-      img_src: "/eCommerce/assets/pants5.jpg",
+      img_src: "/eCommerce/assets/pants5.webp",
       price: "$51.62",
       number_of_reviews: 546,
       short_description: "Comfortable fit",
@@ -219,7 +219,7 @@ export default {
       description:
         "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
       ratings: 2.2,
-      img_src: "/eCommerce/assets/pants6.jpg",
+      img_src: "/eCommerce/assets/pants6.webp",
       price: "$190.85",
       number_of_reviews: 539,
       short_description: "Stylish and comfy",
@@ -233,7 +233,7 @@ export default {
       description:
         "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
       ratings: 4.2,
-      img_src: "/eCommerce/assets/pants7.jpg",
+      img_src: "/eCommerce/assets/pants7.webp",
       price: "$230.92",
       number_of_reviews: 252,
       short_description: "Comfortable fit",
@@ -247,7 +247,7 @@ export default {
       description:
         "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
       ratings: 4.2,
-      img_src: "/eCommerce/assets/pants8.jpg",
+      img_src: "/eCommerce/assets/pants8.webp",
       price: "$240.79",
       number_of_reviews: 33,
       short_description: "High quality",
@@ -261,7 +261,7 @@ export default {
       description:
         "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
       ratings: 1.2,
-      img_src: "/eCommerce/assets/pants9.jpg",
+      img_src: "/eCommerce/assets/pants9.webp",
       price: "$120.26",
       number_of_reviews: 88,
       short_description: "Trendy design",
@@ -275,7 +275,7 @@ export default {
       description:
         "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
       ratings: 1.6,
-      img_src: "/eCommerce/assets/pants10.jpg",
+      img_src: "/eCommerce/assets/pants10.webp",
       price: "$180.68",
       number_of_reviews: 865,
       short_description: "High quality",
@@ -289,7 +289,7 @@ export default {
       description:
         "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
       ratings: 3.4,
-      img_src: "/eCommerce/assets/pants11.jpg",
+      img_src: "/eCommerce/assets/pants11.webp",
       price: "$138.96",
       number_of_reviews: 13,
       short_description: "Comfortable fit",
@@ -303,7 +303,7 @@ export default {
       description:
         "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
       ratings: 1.6,
-      img_src: "/eCommerce/assets/pants12.jpg",
+      img_src: "/eCommerce/assets/pants12.webp",
       price: "$136.72",
       number_of_reviews: 233,
       short_description: "Stylish and comfy",
@@ -317,7 +317,7 @@ export default {
       description:
         "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
       ratings: 4.9,
-      img_src: "/eCommerce/assets/pants13.jpg",
+      img_src: "/eCommerce/assets/pants13.webp",
       price: "$199.95",
       number_of_reviews: 435,
       short_description: "Comfortable fit",
@@ -331,7 +331,7 @@ export default {
       description:
         "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
       ratings: 2.2,
-      img_src: "/eCommerce/assets/pants14.jpg",
+      img_src: "/eCommerce/assets/pants14.webp",
       price: "$63.73",
       number_of_reviews: 198,
       short_description: "Comfortable fit",
@@ -345,7 +345,7 @@ export default {
       description:
         "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
       ratings: 4.2,
-      img_src: "/eCommerce/assets/pants15.jpg",
+      img_src: "/eCommerce/assets/pants15.webp",
       price: "$84.36",
       number_of_reviews: 949,
       short_description: "Comfortable fit",
