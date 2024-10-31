@@ -612,7 +612,7 @@ export default {
       description:
         "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
       ratings: 4.8,
-      img_src: "/eCommerce/assets/belt 2.jpg",
+      img_src: "/eCommerce/assets/belt 2 .webp",
       price: "$49.99",
       number_of_reviews: 320,
       short_description: "Durable and stylish",

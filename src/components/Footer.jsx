@@ -1,6 +1,6 @@
 import "./Footer.css";
 
-export default function () {
+export default function footer() {
   return (
     <div className="footer">
       <div className="social-media">

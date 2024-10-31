@@ -4,7 +4,7 @@ import eCommereData from "../eCommereData.jsx";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-export default function (props) {
+export default function WindowShop(props) {
   const [info, setInfo] = React.useState(props.window);
 
   const [type, setType] = React.useState(props.window[0].type.toUpperCase());

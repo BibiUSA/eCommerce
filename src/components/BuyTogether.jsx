@@ -2,7 +2,7 @@ import "./BuyTogether.css";
 import { Link } from "react-router-dom";
 
 //covers styling ideas component of each item. parent component being SingleItemInfo
-export default function (props) {
+export default function buyTogether(props) {
   const thisItem = props.thisItem;
   const fullData = props.fullData;
 

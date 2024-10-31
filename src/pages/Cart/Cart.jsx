@@ -6,7 +6,7 @@ import eCommereData from "../../eCommereData.jsx";
 import RealCartItemWindow from "../../components/RealCartItemWindow.jsx";
 import "./Cart.css";
 
-export default function () {
+export default function cart() {
   const dispatch = useDispatch();
   const totalData = eCommereData.data;
   const cartArray = useSelector((state) => state.cart.cartArray);

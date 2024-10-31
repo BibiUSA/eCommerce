@@ -1,7 +1,7 @@
 import "./EachItem.css";
 import { Link } from "react-router-dom";
 
-export default function (props) {
+export default function eachItem(props) {
   return (
     <>
       <Link to={`/singleitem/${props.id}`} className="item-link">

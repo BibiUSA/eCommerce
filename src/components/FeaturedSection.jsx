@@ -5,7 +5,7 @@ import eCommereData from "../eCommereData.jsx"
 
 
 
-export default function(props){
+export default function FeaturedSection(props){
 
 
 

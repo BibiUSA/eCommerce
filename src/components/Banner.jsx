@@ -2,7 +2,7 @@ import eCommereData from "../eCommereData";
 import "./Banner.css";
 import { Link } from "react-router-dom";
 
-export default function () {
+export default function banner() {
   const image = eCommereData.data[1].img_src;
   console.log(image);
 

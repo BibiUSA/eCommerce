@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 import { updateCart } from "../redux/slice";
 import { Link } from "react-router-dom";
 
-export default function (props) {
+export default function RealCartItemWindow(props) {
   const dispatch = useDispatch();
   const cartArray = useSelector((state) => state.cart.cartArray);
   const cartArrayCopy = [...cartArray];

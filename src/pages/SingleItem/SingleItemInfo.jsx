@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import BuyTogether from "../../components/BuyTogether.jsx";
 import Similaritems from "../../components/SimilarItems.jsx";
 
-export default function (props) {
+export default function SingleItemInfo(props) {
   const { itemId } = useParams();
 
   const thisItemId = itemId;

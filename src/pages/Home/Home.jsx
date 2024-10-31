@@ -8,7 +8,7 @@ import { useSelector } from "react-redux";
 import { Outlet } from "react-router-dom";
 import { useEffect, useState } from "react";
 
-export default function () {
+export default function home() {
   const cartArray = useSelector((state) => state.cart.cartArray);
   const [shirts, setShirts] = useState(getItem("Shirt"));
 

@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 import App from "../App.jsx";
 
-export default function (props) {
+export default function windowShopItem(props) {
   function handleClick() {
     console.log(props.item.name);
     console.log(props.item.id);

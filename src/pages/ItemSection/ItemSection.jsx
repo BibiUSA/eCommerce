@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import "./ItemSection.css";
 import { Link } from "react-router-dom";
 
-export default function ({ item }) {
+export default function itemSection({ item }) {
   //   const [itemData, setItemData] = React.useState(props.item);
 
   return (

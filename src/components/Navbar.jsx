@@ -5,7 +5,7 @@ import App from "../App.jsx";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 
-export default function () {
+export default function navbar() {
   const [show, setShow] = React.useState(false);
 
   function handleMouse() {

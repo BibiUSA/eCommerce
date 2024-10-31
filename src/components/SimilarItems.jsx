@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./SimilarItems.css";
 
-export default function (props) {
+export default function similarItems(props) {
   const thisItem = props.thisItem;
   const fullData = props.fullData;
 

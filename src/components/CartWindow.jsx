@@ -7,7 +7,7 @@ import { updateCart } from "../redux/slice.js";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
-export default function ({ show, setShow }) {
+export default function CartWindow({ show, setShow }) {
   let cartArray = useSelector((state) => state.cart.cartArray);
   let totalData = eCommereData.data;
 

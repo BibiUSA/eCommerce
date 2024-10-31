@@ -6,7 +6,7 @@ import App from "../App.jsx";
 import "./SingleItem.css";
 import SingleItemInfo from "../pages/SingleItem/SingleItemInfo.jsx";
 
-export default function (props) {
+export default function singleItem(props) {
   return (
     <>
       <SingleItemInfo fullData={props.fullData} />

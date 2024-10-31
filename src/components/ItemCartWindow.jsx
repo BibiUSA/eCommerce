@@ -6,7 +6,7 @@ import { updateCart } from "../redux/slice.js";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
-export default function (props) {
+export default function itemCartWindows(props) {
   let dispatch = useDispatch();
   // let itemObj = eCommereData.data.map((obj)=>{
   //    if (obj.id== props.item) {
