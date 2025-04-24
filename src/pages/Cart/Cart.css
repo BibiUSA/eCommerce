@@ -53,6 +53,11 @@ hr{
 
     .cart{
         min-height: 75vh;
+    
+        margin-right: 0;
+    }
+    .cartPage{
+        max-width: 100vw;
     }
 
 }

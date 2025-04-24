@@ -84,6 +84,14 @@ hr{
     .quantityAdjust{
         width: 10rem;
     }
+
+    .cartItemDescription{
+        padding-right: 0vw;
+    }
+    .delete{
+       position:static;
+        margin-top: 10%;
+    }
 }
 
 
