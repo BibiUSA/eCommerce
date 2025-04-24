@@ -583,7 +583,7 @@ export default {
       name: "Tie",
       description:
         "This product is made from high-quality materials and designed to provide comfort and style. Perfect for any occasion.",
-      ratings: 4.9,
+      ratings: 4.8,
       img_src: "/eCommerce/assets/tie.jpg",
       price: "$49.99",
       number_of_reviews: 220,
