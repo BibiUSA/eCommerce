@@ -4,8 +4,10 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     padding: 10px 5px 10px 5px ;
+    width:100vw;
+    max-width: 100vw;
 }
 
 .logo{
@@ -59,5 +61,13 @@
     }
     .cart-button{
         font-size: 0.75rem;
+    }
+    .pages{
+        width:70%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .navbar{
+        max-width: 100vw;
     }
 }

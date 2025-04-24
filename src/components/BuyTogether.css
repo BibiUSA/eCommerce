@@ -1,5 +1,6 @@
 #BuyTogether{
     margin:5%;
+   
 }
 
 #BuyTogether h2{
@@ -39,5 +40,6 @@
 
 .complimentLink{
     text-decoration: none;
-    color:black
+    color:black;
+    margin: 2%;
 }

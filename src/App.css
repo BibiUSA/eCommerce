@@ -3,5 +3,6 @@ ion-icon [name = "star"]{
 }
 
 .homepage{
+    width: 100vw;
     max-width:2000px;
 }

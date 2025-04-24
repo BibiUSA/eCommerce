@@ -8,21 +8,25 @@
 .single-item-image{
     width:40vw;
     max-width: 500px;
+    margin: auto ;
 }
 
 .single-item-group{
     display: flex;
-  
+    justify-content: space-around;
 }
 
 .single-item-details{
     display: flex;
-    border: 2px solid green;
-    width: 40%;
+    /* border: 2px solid gainsboro; */
+    width: 50%;
+    justify-content: space-around;
 }
 
 .more-details{
     max-width: 45%;
+    text-align: center;
+    
 }
 
 .single-item-description{
@@ -98,6 +102,27 @@
 
 .size-choice{
     display: flex;
-    
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.more-details-mobile{
+    display: none;
 }
 
+@media screen and (max-width: 500px) {
+
+    
+    .more-details{
+       display: none;
+    }
+
+    .more-details-mobile{
+        display: block;
+        max-width: 100vw;
+        text-align: center;
+    }
+    .single-item-image{
+        width: 60vw;
+       
+    }
+}

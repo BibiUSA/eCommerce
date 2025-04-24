@@ -34,6 +34,7 @@ hr{
     position: absolute;
     right:5vw;
     top:5vh;
+    cursor: pointer;
 }
 
 .nameLink{
@@ -79,6 +80,9 @@ hr{
     }
     .cartitem{
         width:100vw;
+    }
+    .quantityAdjust{
+        width: 10rem;
     }
 }
 

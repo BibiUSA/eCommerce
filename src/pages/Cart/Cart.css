@@ -2,7 +2,8 @@
 .checkOutSection{
     width:300px;
     border: 1px solid gray;
-    margin-left: 0;
+    text-align: center;
+    padding-top: 2%;
 }
 .checkOutSection p{
     color:black;
@@ -18,10 +19,15 @@
 .checkOutButton{
     padding: 4px;
     border-radius: 5px;
-
-   cursor: pointer;
-
+    margin-top: 5%;
 }
+
+.checkOutButton:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
 .cart{
     min-height: 85vh;
 }
@@ -34,10 +40,19 @@ hr{
     border:0.5px solid rgb(213, 206, 206);
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:550px) {
     h1{
         text-align: center;
         font-size: 1.5rem;
+    }
+
+    .checkOutSection{
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+
+    .cart{
+        min-height: 75vh;
     }
 
 }

@@ -201,6 +201,74 @@ export default function SingleItemInfo(props) {
           </div>
         </div>
       </section>
+      <div className="more-details-mobile">
+        <h3>{thisItem.name}</h3>
+        <p>
+          {`Rating: ${thisItem.ratings} `}
+          <ion-icon name="star"></ion-icon>
+        </p>
+        <p>Number of Reviews: {thisItem.number_of_reviews}</p>
+        <p>Color: {thisItem.color}</p>
+        <p>Product ID: {itemId}</p>
+        <form className="size-choice">
+          <input
+            type="radio"
+            value="S"
+            name="size"
+            id="size-s"
+            className="sizes"
+            onClick={handleSize}
+          ></input>
+          <label htmlFor="size-s" className="sizes-label">
+            S
+          </label>
+          <input
+            type="radio"
+            value="M"
+            name="size"
+            id="size-m"
+            className="sizes"
+            onClick={handleSize}
+          ></input>
+          <label htmlFor="size-m" className="sizes-label">
+            M
+          </label>
+          <input
+            type="radio"
+            value="L"
+            name="size"
+            id="size-l"
+            className="sizes"
+            onClick={handleSize}
+          ></input>
+          <label htmlFor="size-l" className="sizes-label">
+            L
+          </label>
+          <input
+            type="radio"
+            value="XL"
+            name="size"
+            id="size-xl"
+            className="sizes"
+            onClick={handleSize}
+          ></input>
+          <label htmlFor="size-xl" className="sizes-label">
+            XL
+          </label>
+          <input
+            type="radio"
+            value="XXL"
+            name="size"
+            id="size-xxl"
+            className="sizes"
+            onClick={handleSize}
+          ></input>
+          <label htmlFor="size-xxl" className="sizes-label">
+            XXL
+          </label>
+        </form>
+        <p className="single-item-description">{thisItem.description}</p>
+      </div>
       <BuyTogether thisItem={thisItem} fullData={props.fullData} />
       <Similaritems thisItem={thisItem} fullData={props.fullData} />
     </div>

@@ -2,18 +2,19 @@
 
 .each-item-image{
     width:20vw;
-    height:30vh;
+    height:20vw;
     max-width: 400px;
     max-height: 600px;
 
 }
 
 .each-item{
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin: 5% auto;
   border: 1px solid transparent;
   padding-top: 10%;
   padding-bottom: 10%;
+  text-align: center;
+  
 }
 
 .each-item:hover{
@@ -27,8 +28,8 @@
 }
 
 @media screen and (max-width:500px) {
- .each-item{
- 
+ .each-item-image{
+      height: 30vw;
  }
 
 }

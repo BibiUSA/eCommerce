@@ -11,10 +11,12 @@
 .banner h2{
     color:white;
     font-size: 2.5rem;
+    max-width: 100%;
 }
 .banner p{
     color:white;
     font-size: 1.1rem;;
+    max-width: 100%;
 }
 
 .banner button{
@@ -35,6 +37,7 @@
 .banner-words{
     position: relative;
     top:50%;
+    width:97%;
     left:3%;
 }
 .linkToItem{
